@@ -236,6 +236,3 @@ HGB, WBC, RBC, PLT, HCT, MCV, MCH, MCHC, RDWSD, RDWCV
 * Fine-tuned lightweight model for structured table extraction
 * Multi-report batch processing
 * Confidence scoring
-* Doctor view & patient view modes
-
----
