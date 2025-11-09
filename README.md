@@ -243,12 +243,4 @@ HGB, WBC, RBC, PLT, HCT, MCV, MCH, MCHC, RDWSD, RDWCV
 ## 📝 License
 
 MIT License.
-
----
-
-## 💬 Contact / Contributions
-
-Feel free to open Issues or Pull Requests.
-If you want me to add contribution guidelines or a badge section, just ask.
-
 ---
