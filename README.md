@@ -239,8 +239,3 @@ HGB, WBC, RBC, PLT, HCT, MCV, MCH, MCHC, RDWSD, RDWCV
 * Doctor view & patient view modes
 
 ---
-
-## 📝 License
-
-MIT License.
----
