@@ -1,7 +1,7 @@
 # CBC Report Interpreter using Explainable AI
 
 An OCR-powered, ML-assisted diagnostic helper for **CBC (Complete Blood Count)** reports.
-This Streamlit web app reads CBC reports (image/PDF), extracts values with advanced OCR, allows user corrections, predicts urgency using a hybrid ML + rule engine, and explains decisions with SHAP.
+This Streamlit web app reads CBC reports (image), extracts values with advanced OCR, allows user corrections, predicts urgency using a hybrid ML + rule engine, and explains decisions with SHAP.
 
 ---
 
@@ -56,7 +56,6 @@ OCR works on:
 * JPG
 * PNG
 * JPEG
-* PDF pages
 
 ---
 
@@ -108,44 +107,37 @@ You get:
 ---
 
 ### 🔹 1. Home Page / Upload Screen
-![Upload Screen](assets/screenshots/upload_page_placeholder.png)
+![Upload Screen](assets/upload_page.png)
 
-*Users upload CBC reports in JPG/PNG/PDF formats.*
+*Users upload CBC reports in JPG/PNG/JPEG formats.*
 
 ---
 
 ### 🔹 2. Extracted Values (OCR Output)
-![Extracted Values](assets/screenshots/ocr_output_placeholder.png)
+![Extracted Values](assets/ocr_output.png)
 
 *Automatically detected CBC readings with an option to edit.*
 
 ---
 
 ### 🔹 3. Edit Mode (Manual Correction)
-![Edit Mode](assets/screenshots/edit_mode_placeholder.png)
+![Edit Mode](assets/edit_mode.png)
 
 *Users can correct misread values before analysis.*
 
 ---
 
 ### 🔹 4. Final Urgency Result
-![Urgency Prediction](assets/screenshots/urgency_prediction_placeholder.png)
+![Urgency Prediction](assets/urgency_prediction.png)
 
 *Combined ML + medical rule-based urgency classification.*
 
 ---
 
-### 🔹 5. SHAP Explainability Plot
-![SHAP Plot](assets/screenshots/shap_plot_placeholder.png)
+### 🔹 5. SHAP Explainability Plot & Downloadable Summary Report Option
+![SHAP Plot](assets/shap_plot.png)
 
-*Visual explanation showing feature importance in model decision.*
-
----
-
-### 🔹 6. Downloadable Summary Report
-![Summary Download](assets/screenshots/summary_download_placeholder.png)
-
-*Text-based summary including findings and recommendations.*
+*Visual explanation showing feature importance in model decision and Text-based summary including findings and recommendations.*
 
 ---
 
@@ -240,6 +232,7 @@ HGB, WBC, RBC, PLT, HCT, MCV, MCH, MCHC, RDWSD, RDWCV
 ## ✅ Future Enhancements
 
 * Vision transformer for OCR
+* Support PDF file format
 * Fine-tuned lightweight model for structured table extraction
 * Multi-report batch processing
 * Confidence scoring
